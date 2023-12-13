@@ -1,0 +1,989 @@
+[
+  {
+    "type": "MESSAGE_WELLCOME",
+    "messages": {
+      "texts":  [
+        "string, que bom que vc voltou",
+        "string, que bom ter vc aqui com a gente",
+        "Olá, string",
+        "Oi, string",
+        "Oi",
+        "Olá"
+      ],
+      "variations": {
+        "texts": [
+          "A minha missão é tornar a sua vida mais fácil",
+          "Minha motivação é te ajudar",
+          "É prá já! E como eu posso te ajudar string?",
+          "Estou aqui para facilitar a sua vida",
+          "Eu sou a assistente virtual Orbie tô aqui pra facilitar o seu dia a dia."
+        ],
+        "image": "https://clarabucketprd.file.core.windows.net/static/orbi.png?st=2000-05-05T17%3A05%3A00Z&se=3000-05-05T17%3A05%3A00Z&sp=r&sv=2018-03-28&sr=f&sig=HWxs6DUuVg%2BQ1l2KfRHtTIWu8qM6Nf9OnJXqjPG0axQ%3D"
+      },
+      "menu": {
+        "texts": [
+          "Como eu posso ajudar?",
+          "Vamos lá! E como eu posso te ajudar?"
+        ],
+        "variations": [
+          "Uma dica: se precisar voltar para cá é só digitar “menu” "
+        ],
+        "buttons": [
+          "Tirar uma dúvida!",
+          "Reportar um Erro!",
+          "Como funciona a Conta Orbi?"
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_HELP",
+    "messages": {
+      "texts": [
+        "Beleza! Eu fui treinada para tirar dúvidas sobre a Conta Digital Orbi"
+      ],
+      "variations": {
+        "texts": [
+          "Fica a dica: Pegunte de forma objetiva. Ex.: Como uso o cartão virtual?"
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_HELP_RETURN",
+    "messages": {
+      "texts": [],
+      "awaits":[
+        "Muito bem! Só um momentinho..."
+      ],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [
+          "Essa resposta foi útil para vc?"
+        ],
+        "variations": [],
+        "buttons": [
+          "Sim, era isso!",
+          "Infelizmente não :("
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_EVALUATION",
+    "messages": {
+      "texts": [],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [
+          "Essa resposta foi útil para vc?"
+        ],
+        "variations": [],
+        "buttons": [
+          "Sim, era isso!",
+          "Infelizmente não :("
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_EVALUATION_YES",
+    "messages": {
+      "texts": [
+        "Oba! É sempre bom poder ajudar!"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [
+          "string, posso ajudar em mais alguma coisa?"
+        ],
+        "variations": [],
+        "buttons": [
+          "Sim, por favor!",
+          "Não, era só isso."
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_EVALUATION_MENU_YES",
+    "messages": {
+      "texts": [
+        "Oba! É sempre bom poder ajudar!"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [
+          "Como eu posso ajudar?",
+          "Vamos lá! E como eu posso te ajudar?"
+        ],
+        "variations": [
+          "Uma dica: se precisar voltar para cá é só digitar “menu” "
+        ],
+        "buttons": [
+          "Tirar uma dúvida!",
+          "Reportar um Erro!",
+          "Como funciona a Conta Orbi?"
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_EVALUATION_MENU_NO",
+    "messages": {
+      "texts": [
+        "string, conte comigo sempre que precisar. É só me dar um “oi”"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [
+          "Um abraço"
+        ],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_EVALUATION_NO",
+    "messages": {
+      "texts": [
+        "Puxa! Desculpa não conseguir ajudar"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [
+          "Vc quer que chame um de nossos atendentes para ajudar?"
+        ],
+        "variations": [],
+        "buttons": [
+          "Sim, por favor!",
+          "Não precisa."
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_EVALUATION_HELP",
+    "messages": {
+      "texts": [
+        "string, nesse momento todos os nossos atendentes estão ocupados"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [
+          "Vou te pedir para aguardar uns minutinhos e solicitar novamente o atendimento"
+        ],
+        "variations": [],
+        "buttons": [
+          "Solicitar novamente.",
+          "Tento mais tarde."
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_EVALUATION_RESPONSE",
+    "messages": {
+      "texts": [
+        "Vc gostaria de dar uma sugestão?"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [
+          "A sua resposta vai me ajudar a aprender cada vez mais."
+        ],
+        "variations": [],
+        "buttons": [
+          "Quero dar uma sugestão!",
+          "Agora não ;)"
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_EVALUATION_SUGGESTION",
+    "messages": {
+      "texts": [],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [
+          "A sua resposta vai me ajudar a aprender cada vez mais."
+        ],
+        "variations": [],
+        "buttons": [
+          "Quero dar uma sugestão!",
+          "Agora não ;)"
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_EVALUATION_SUGGESTION_RESPONSE",
+    "messages": {
+      "texts": [
+        "Obrigada pela sugestão!"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [
+          "string, posso ajudar em mais alguma coisa?"
+        ],
+        "variations": [],
+        "buttons": [
+          "Sim, por favor!",
+          "Não, era só isso."
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_EVALUATION_SUGGESTION_NO",
+    "messages": {
+      "texts": [],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [
+          "string, posso ajudar em mais alguma coisa?"
+        ],
+        "variations": [],
+        "buttons": [
+          "Sim, por favor!",
+          "Não, era só isso."
+        ]
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_CARD_DEBIT",
+    "messages": {
+      "texts": [
+        "string, a conta *Orbi* é uma *conta digital* na modalidade *pré-paga.*&#10;&#10;Vc *gera um boleto com o valor desejado, efetua o pagamento e o valor entra na sua conta.*&#10;&#10;*Para fazer compras* em sites ou aplicativos, *vc deve utilizar o Cartão Virtual da Conta.*&#10;&#10;Você *seleciona o produto normalmente* e na hora de *efetuar o pagamento,* deve selecionar a opção *cartão de crédito.*&#10;&#10;*O valor* da sua compra *é debitado diretamente do saldo* da sua conta Orbi.&#10;&#10;O uso do *Cartão Virtual da Conta não gera fatura* ou cobranças futuras.&#10;&#10;Vc pode conferir as suas compras *no extrato da conta.*"
+      ],
+      "awaits": [],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_CARD_CREDIT_LIMIT",
+    "messages": {
+      "texts": [
+        "string, a conta *Orbi* é uma *conta digital* na modalidade *pré-paga.*&#10;&#10;O *seu limite de compra é o saldo disponível na conta* Orbi.&#10;&#10;Vc faz o seu *limite de compras adicionando saldo*"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_WITHDRAW_CASH",
+    "messages": {
+      "texts": [
+        "string, neste momento *não é possível fazer saques em dinheiro* da conta Orbi.&#10;&#10;&#128161; *Dica:* vc pode *fazer um Pix para outra conta com saque disponível* &#128521;"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ENABLE_VIRTUAL_CARD",
+    "messages": {
+      "texts": [
+        "Para *habilitar o cartão virtual* da conta Orbi acesse a seção *“Cartões”* e selecione *“Ativar cartão”.*&#10;&#10;*Viu como é simples?* Agora vc *pode fazer as suas compras pela internet usando o saldo da sua conta* Orbi.&#10;&#10;&#128073; Importante: o *seu limite de compra é o saldo disponível na conta* Orbi."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_LOCK_VIRTUAL_CARD",
+    "messages": {
+      "texts": [
+        "string, vc *pode bloquear* o seu cartão virtual a *qualquer momento!*&#10;&#10;*Para bloquear o seu cartão virtual Orbi:* acesse a seção *“Cartões”* e *selecione a imagem do cartão* que vc deseja bloquear.&#10;&#10;Depois basta *ativar a opção “Bloqueio temporário”.*&#10;&#10;Quando *quiser utilizar o cartão é só* voltar na seção *“Cartões”* e *reativar* o cartão virtual."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_VIRTUAL_CARD",
+    "messages": {
+      "texts": [
+        "string, *cartão virtual* é um cartão *confiável e prático* para *uso exclusivo* em *transações em sites de compras, apps e serviços on-line* diversos.&#10;&#10;&#128073; *Importante:* o *cartão virtual fica no app* e vc faz *compras exclusivamente pela internet.*"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_INVOICE_DELAY",
+    "messages": {
+      "texts": [
+        "string, *não se preocupe.* Vc poderá *seguir utilizando* o saldo da *sua conta Orbi para compras* com o cartão virtual Orbi e *para transferências.*&#10;&#10;*Apenas o* cartão de crédito *Meu Cartão ficará bloqueado* por atraso."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_INVOICE_DELAY",
+    "messages": {
+      "texts": [
+        "string, *não se preocupe.* Vc poderá *seguir utilizando* o saldo da *sua conta Orbi para compras* com o cartão virtual Orbi e *para transferências.*&#10;&#10;*Apenas o* cartão de crédito *Meu Cartão ficará bloqueado* por atraso."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_DELETE_VIRTUAL_CARD",
+    "messages": {
+      "texts": [
+        "string, para *voltar a comprar com o cartão Orbi* basta *gerar um novo cartão virtual.*&#10;&#10;As *compras feitas com o* cartão de crédito *Meu Cartão seguem na sua fatura* e as compras feitas com o *cartão Orbi podem ser conferidas no extrato* da conta.&#10;&#10;&#128073; *Importante: serviços por assinatura* (app de streaming, sites de notícias, etc) *poderão ser suspensos* devido a falta de pagamento."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_PHYSICAL_CARD",
+    "messages": {
+      "texts": [
+        "string, a conta Orbi *não possui cartão físico.*&#10;&#10;É uma conta na *modalidade pré-paga.*&#10;&#10;Vc *adiciona dinheiro e usa um cartão de crédito virtual* para fazer suas *compras em sites ou pagamentos em aplicativos.*&#10;&#10;O *seu limite de compra é o saldo disponível na conta* Orbi."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_VIRTUAL_CARD_PURCHASES",
+    "messages": {
+      "texts": [
+        "string, para *utilizar o seu cartão virtual Orbi:* acesse a seção *“Cartões”* e depois *selecione a imagem do cartão para visualizar* as informações de: *número do cartão, titular do cartão, validade e CVV.*&#10;&#10;Agora é só *fazer as suas compras* &#127873;&#127881;&#10;&#10;*Importante:*&#10;&#128717; Com o *cartão virtual* Orbi vc pode *comprar no site* da sua loja favorita ou *fazer pagamentos em aplicativos.*&#10;&#10;&#128176;O seu *limite de compra* é o *seu saldo disponível na conta* Orbi;&#10;&#10;&#128273; *Não é preciso informar* nenhuma *senha de cartão no momento da compra;*&#10;&#10;&#128274; Vc pode *bloquear o seu cartão virtual a qualquer momento* selecionando *“Bloqueio temporário”*"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_EXTRACT",
+    "messages": {
+      "texts": [
+        "string, para *acompanhar as movimentações financeiras ou histórico de faturas:* acesse a seção *“Cartões”* e *selecione a imagem* do *cartão que vc quer consultar.*&#10;&#10;Todas as *movimentações financeiras do cartão* selecionado estarão *disponíveis na área de “Últimas transações”.*&#10;&#10;As *compras feitas* com o *cartão virtual Orbi* são *debitadas diretamente do saldo* da sua *conta Orbi.*&#10;&#10;Já as *compras feitas com* o cartão de crédito *Meu Cartão* são *lançadas na fatura. Acessando o item “Faturas”,* será exibido o *seu histórico completo de faturas.*&#10;&#10;&#128161;*Dica:* vc pode *consultar as movimentações financeiras* da sua *conta Orbi* acessando o *item “Conta”* e depois *“Movimentações”.*&#10;&#10;Vc poderá *visualizar todas as suas movimentações ordenadas* pela data que a movimentação foi feita &#128521;"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_UPDATE",
+    "messages": {
+      "texts": [
+        "string, *para atualizar* o seu *nome, email e telefone celular,* acesse *“Minha Conta”* no *canto superior esquerdo do app Orbi.* Depois entre no *item “Perfil”* &#128522;"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_VIRTUAL_CARD_SPENDING",
+    "messages": {
+      "texts": [
+        "string, para *acompanhar as movimentações financeiras ou histórico de faturas:* acesse a seção *“Cartões”* e *selecione a imagem* do *cartão que vc quer consultar.*&#10;&#10;Todas as *movimentações financeiras do cartão* selecionado estarão *disponíveis na área de “Últimas transações”.*&#10;&#10;As *compras feitas* com o *cartão virtual Orbi* são *debitadas diretamente do saldo* da sua *conta Orbi.*&#10;&#10;Já as *compras feitas com* o cartão de crédito *Meu Cartão* são *lançadas na fatura. Acessando o item “Faturas”,* será exibido o *seu histórico completo de faturas.*&#10;&#10;&#128161;*Dica:* vc pode *consultar as movimentações financeiras* da sua *conta Orbi* acessando o *item “Conta”* e depois *“Movimentações”.*&#10;&#10;Vc poderá *visualizar todas as suas movimentações ordenadas* pela data que a movimentação foi feita &#128521;"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_INVOICE_DUE_DATE",
+    "messages": {
+      "texts": [
+        "string, vc pode *alterar a data de vencimento da sua fatura do Meu Cartão* pelo *app Orbi.*&#10;&#10;Para *alterar a data de vencimento da sua fatura:* acesse a seção *“Cartões”* e *selecione a imagem* com os *dados do Meu Cartão.*&#10;&#10;Depois *selecione* o item *“Ajustes”.* Em seguida escolha *“Alterar vencimento”.*&#10;&#10;Agora é só escolher a *nova data de vencimento* e *“Confirmar”.*"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_DEPOSIT_CASH",
+    "messages": {
+      "texts": [
+        "string, para *colocar dinheiro na sua conta Orbi* é necessário *gerar um boleto para depósito* e realizar o pagamento.&#10;&#10;O dinheiro *estará na sua conta em até 3 dias úteis.*&#10;&#10;Para *gerar o boleto: no app Orbi, acesse “Conta” e depois selecione o item “Depositar”.*&#10;&#10;Em seguida, *escolha a opção “Depósito via boleto bancário”, digite o valor* que *deseja depositar* na sua *conta Orbi e clique em “Continuar”.*&#10;&#10;Vc poderá *copiar o código de barras para pagar* esse boleto *como preferir.*"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_PAY_BILLS",
+    "messages": {
+      "texts": [
+        "string, para *pagar contas* utilizando o *app da conta Orbi* acesse a seção *“Conta”* e depois selecione o item *“Pagar conta”.*"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_INVOICE_INSTALLMENT",
+    "messages": {
+      "texts": [
+        "string, vc *pode parcelar o pagamento da fatura* do *Meu Cartão* pelo *app Orbi.*&#10;&#10;Para *fazer o parcelamento da fatura do Meu Cartão:* acesse a seção “Cartões” e *selecione a imagem* com os *dados do Meu Cartão.*&#10;&#10;Em seguida, escolha *“Pagar por boleto”.*&#10;&#10;Vc *poderá optar* pelo *pagamento total, mínimo ou em até 18 parcelas.* Por fim, *clique* em *“Gerar boleto”.*"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_INVOICE_HISTORY",
+    "messages": {
+      "texts": [
+        "string, para *acompanhar as movimentações financeiras ou histórico de faturas:* acesse a seção *“Cartões”* e *selecione a imagem* do *cartão que vc quer consultar.*&#10;&#10;Todas as *movimentações financeiras do cartão* selecionado estarão *disponíveis na área de “Últimas transações”.*&#10;&#10;As *compras feitas* com o *cartão virtual Orbi* são *debitadas diretamente do saldo* da sua *conta Orbi.*&#10;&#10;Já as *compras feitas com* o cartão de crédito *Meu Cartão* são *lançadas na fatura. Acessando o item “Faturas”,* será exibido o *seu histórico completo de faturas.*&#10;&#10;&#128161;*Dica:* vc pode *consultar as movimentações financeiras* da sua *conta Orbi* acessando o *item “Conta”* e depois *“Movimentações”.*&#10;&#10;Vc poderá *visualizar todas as suas movimentações ordenadas* pela data que a movimentação foi feita &#128521;"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_INVOICE_BALANCE",
+    "messages": {
+      "texts": [
+        "string, vc *pode efetuar o pagamento da sua fatura* com *o saldo da sua conta Orbi.*&#10;&#10;Para *pagar a sua fatura com o saldo da sua conta:* acesse a seção *“Cartões”* e *selecione a imagem* com os *dados do Meu Cartão.*&#10;&#10;No item *Fatura Fechada selecione “Pagar”.* Em seguida escolha a opção *“Usar saldo da conta”.*&#10;&#10;Agora é só *informar o valor* e *“Confirmar”.*&#10;&#10;Essa funcionalidade *libera o seu limite de crédito* do *Meu Cartão* na *hora* &#127881;"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES",
+    "messages": {
+      "texts": [
+        "string, no *app Orbi* vc poderá *acessas algumas funcionalidades* do *Meu Cartão:*&#10;&#10;&#128176; consultar *limite;*&#10;&#128197; data de *vencimento da fatura;*&#10;&#128198; *melhor* data de *compra;*&#10;&#128209; *histórico* de faturas;&#10;&#128220; *consulta* de faturas abertas e fechadas;&#10;&#128181; gerar *código de barras* para *pagamento;*&#10;⏱ *pagar* a *sua fatura com saldo da conta Orbi* e ter seu *limite liberado na hora;*&#10;&#128197; *alterar* a data de *vencimento;*&#10;&#128231; *alterar* a *forma de recebimento* da sua fatura;&#10;&#128274; aviso viagem e *bloqueio temporário do seu cartão.*&#10;&#10;Todas essas *funcionalidades* estão *disponíveis* para vc *na seção “Cartões”* &#128521;"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+{
+  "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_VIDEO",
+  "messages": {
+    "texts": [
+      "A gente fez um vídeo rápido que explica tudo sobre o app Orbi. Vamos assistir?;"
+    ],
+    "awaits":[],
+    "variations": {
+      "texts": [],
+      "image": ""
+    },
+    "menu": {
+      "texts": [],
+      "variations": [],
+      "buttons": []
+    }
+  }
+},
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_VIDEO_YES",
+    "messages": {
+      "texts": [
+        "Dá o play e assiste sem pressa!;"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_VIDEO_NO",
+    "messages": {
+      "texts": [
+        "Tudo bem Caso você mude de ideia, é só digitar “Tutorial Orbi” que eu explico mais sobre a conta Orbi, beleza? ;"
+      ],
+      "awaits": [],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_CARDS_PIX",
+    "messages": {
+      "texts": [
+        "Ainda não cadastrou as suas chaves Pix na conta Orbi?",
+        "Com o Orbi é muito fácil",
+        "Quais chaves eu vou poder cadastrar?"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": "https://clarabucketprd.file.core.windows.net/static/Card-Chave-Pix%203%20-%201.png?sv=2020-10-02&st=2022-02-03T16%3A44%3A24Z&se=2025-02-04T16%3A44%3A00Z&sr=f&sp=r&sig=KYBEcRytZdpjT4NQRzGpCi0o9wtvPOep3uIW4hPEeLc%3D"
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_CARDS_REGISTER_PIX",
+    "messages": {
+      "texts": [
+        "Ainda não cadastrou as suas chaves Pix na conta Orbi?",
+        "Com o Orbi é muito fácil",
+        "Quais chaves eu vou poder cadastrar?"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": "https://clarabucketprd.file.core.windows.net/static/Card-Chave-Pix%203%20-%201.png?sv=2020-10-02&st=2022-02-03T16%3A44%3A24Z&se=2025-02-04T16%3A44%3A00Z&sr=f&sp=r&sig=KYBEcRytZdpjT4NQRzGpCi0o9wtvPOep3uIW4hPEeLc%3D"
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_HOW_OPEN_BANK",
+    "messages": {
+      "texts": [
+        "String,*o Open Banking, ou Sistema Financeiro de Dados Abertos, é uma iniciativa que permite que você compartilhe seus dados com diferentes instituições financeiras autorizadas pelo Banco Central.\n\nCom o Open Banking você tem mais liberdade de escolha para decidir quando, com quem e quais dados você deseja compartilhar e, assim, ter acesso a produtos e serviços financeiros que tenham mais a ver com o seu perfil;"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_OPEN_BANK_SECURITY",
+    "messages": {
+      "texts": [
+        "String,*o Open Banking é seguro.\n\nTodas as instituições participantes do Open Banking são reguladas pelo Banco Central do Brasil, tendo que atender altos padrões de segurança, sendo responsáveis pela segurança, sigilo e integridade dos dados e serviços compartilhados. \n\nTodas as transações devem obedecer às premissas previstas na Lei do Sigilo Bancário e pela LGPD (Lei Geral de Proteção de Dados), além de todas as normas geridas pelo Banco Central do Brasil.\n\n\uD83D\uDC49 Fique atento: nenhuma instituição pode fazer o compartilhamento ou obter o seu histórico financeiro sem a sua autorização. Você controla o compartilhamento pelo Internet Banking ou app do seu banco.;"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_CONTROLER_DATA",
+    "messages": {
+      "texts": [
+        "String,*o controle de dados está nas suas mãos.\n\nAs instituições financeiras só poderão receber ou enviar informações se você autorizar. \n\nSem a sua autorização não haverá intercâmbio dos dados. O controle dos dados enviados será administrado e escolhido por você.\n\n\uD83D\uDC49 Fique atento: nenhuma instituição pode fazer o compartilhamento ou obter o seu histórico financeiro sem a sua autorização. Você controla o compartilhamento pelo Internet Banking ou app do seu banco."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_OPEN_INFO_SHARE",
+    "messages": {
+      "texts": [
+        "String,*após a sua autorização para envio, as informações serão recebidas através de uma integração de serviços entre sistemas bancários.\n\nPortanto, fique tranquilo, quem escolhe quando e quais dados a serem enviados é você"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_OPEN_BENEFITS",
+    "messages": {
+      "texts": [
+        "String,*a principal vantagem do Open Banking é que você ganha mais controle da sua vida financeira, além de mais autonomia e liberdade para escolher a instituição financeira que oferece os melhores produtos e serviços.\n\nAs instituições financeiras ganham a oportunidade de conhecer melhor o seu perfil e oferecer soluções personalizadas."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_OPEN_DATA_SHARE",
+    "messages": {
+      "texts": [
+        "String,*através do Open Banking você pode compartilhar os seus dados cadastrais e autorizar pagamentos utilizando o Pix sem a necessidade de acessar o app da Conta Orbi.\n\n\uD83D\uDC49 Por exemplo: você pode fazer uma compra pela internet e realizar o pagamento utilizando apenas a sua chave Pix.\n\n\uD83D\uDC49 Importante: o outro app só pode fazer transações se você autorizar! Com o Open Banking você está no controle."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_GUIDELINES_INFOS",
+    "messages": {
+      "texts": [
+        "String,*todo processo de compartilhamento será realizado nos canais digitais das instituições. \n\nO primeiro ambiente será de identificação (realizar login e senha, por exemplo no App ou Web Site), depois ocorrerá o redirecionamento para a instituição que possui seus dados para confirmar a autorizar o compartilhamento e então, é retomado do primeiro ambiente onde solicitou compartilhamento dos dados."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_DIFFERENCE_PIX_OPEN",
+    "messages": {
+      "texts": [
+        "String* com o Open Banking você pode autorizar a realização de pagamentos utilizando as suas chaves Pix sem precisar acessar a Conta Digital Orbi.\n\n\uD83D\uDC49 Por exemplo: você pode autorizar um app de gestão de contas bancárias a fazer um pix utilizando o saldo da sua Conta Digital Orbi.\n\n\uD83D\uDC49 Importante: o outro app só pode fazer transações se você autorizar! Com o Open Banking você está no controle."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_DIFFERENCE_INFO_PIX",
+    "messages": {
+      "texts": [
+        "String,*com o Open Banking você pode autorizar a realização de pagamentos utilizando as suas chaves Pix sem precisar acessar a Conta Digital Orbi.\n\n\uD83D\uDC49 Por exemplo: você pode autorizar um app de gestão de contas bancárias a fazer um pix utilizando o saldo da sua Conta Digital Orbi.\n\n\uD83D\uDC49 Importante: o outro app só pode fazer transações se você autorizar! Com o Open Banking você está no controle."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_USE_INFO",
+    "messages": {
+      "texts": [
+        "String,*o Open Banking é executado apenas por meio de canais digitais, como aplicativos das instituições financeiras.\n\n\uD83D\uDC49 Fique atento: nenhuma instituição pode fazer o compartilhamento ou obter o seu histórico financeiro sem a sua autorização. Você controla o compartilhamento pelo Internet Banking ou app do seu banco"
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_PRICE_INFO",
+    "messages": {
+      "texts": [
+        "String,*não existe uma cobrança extra nas operações de pagamento através do Open Banking."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  },
+  {
+    "type": "MESSAGE_FAQ_ACCOUNT_FEATURES_CENTER_HELP",
+    "messages": {
+      "texts": [
+        "String,*para obter mais informações ou ajuda referente ao Open Banking acesse um de nossos canais de atendimento:\n\nSAC\n0800 600 6601\nO atendimento é 24 horas, todos os dias.\n\nOuvidoria\n0800 727 0127\nHorário de atendimento:\nEm dias úteis, das 10h às 16h.."
+      ],
+      "awaits":[],
+      "variations": {
+        "texts": [],
+        "image": ""
+      },
+      "menu": {
+        "texts": [],
+        "variations": [],
+        "buttons": []
+      }
+    }
+  }
+]
+

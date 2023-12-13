@@ -1,0 +1,78 @@
+{
+  "android": [
+    {
+      "device": "and01",
+      "device.name": "Samsung Galaxy S21",
+      "device.version": "11.0",
+      "automationName": "UiAutomator2"
+    },
+    {
+      "device": "and02",
+      "device.name": "OnePlus 8",
+      "device.version": "10.0",
+      "automationName": "UiAutomator2"
+    },
+    {
+      "device": "and03",
+      "device.name": "Xiaomi Redmi Note 9",
+      "device.version": "10.0",
+      "automationName": "UiAutomator2"
+    },
+    {
+      "device": "and04",
+      "device.name": "Motorola Moto G7 Play",
+      "device.version": "9.0",
+      "automationName": "UiAutomator2"
+    },
+    {
+      "device": "and05",
+      "device.name": "Huawei P30",
+      "device.version": "9.0",
+      "automationName": "UiAutomator2"
+    },
+    {
+      "device": "and06",
+      "device.name": "Samsung Galaxy Note 8",
+      "device.version": "7.1",
+      "automationName": "UiAutomator2"
+    }
+  ],
+  "ios": [
+    {
+      "device": "ios01",
+      "device.name": "iPhone 12 Pro",
+      "device.version": "14",
+      "automationName": "XCUITest"
+    },
+    {
+      "device": "ios02",
+      "device.name": "iPhone XS",
+      "device.version": "13",
+      "automationName": "XCUITest"
+    },
+    {
+      "device": "ios03",
+      "device.name": "iPhone 11",
+      "device.version": "13",
+      "automationName": "XCUITest"
+    },
+    {
+      "device": "ios04",
+      "device.name": "iPhone 8 Plus",
+      "device.version": "12",
+      "automationName": "XCUITest"
+    },
+    {
+      "device": "ios05",
+      "device.name": "iPhone 11 Pro Max",
+      "device.version": "13",
+      "automationName": "XCUITest"
+    },
+    {
+      "device": "ios06",
+      "device.name": "iPhone 7",
+      "device.version": "12",
+      "automationName": "XCUITest"
+    }
+  ]
+}
